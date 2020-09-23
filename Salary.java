@@ -1,8 +1,10 @@
 // Abstract class employee task
 
-public abstract class Employee1 {
+public class Employee1 {
+
 	static Scanner scan=null;
-abstract void salary();
+	abstract void salary();
+
 static String login() {
 	scan=new Scanner(System.in);
 	// Logging in with the type
@@ -10,7 +12,8 @@ static String login() {
 	String type=scan.next();
 	return type;
 }
-	public static void main(String[] args) {
+
+public static void main(String[] args) {
 		RegularEmp re=new RegularEmp();
 		ContractEmp ce=new ContractEmp();
 		scan=new Scanner(System.in);
@@ -33,6 +36,7 @@ static String login() {
 		}
 	}
 }
+
 class RegularEmp extends Employee1{
 	void empDetails(String name, int id) {
 		System.out.println("Name \t Id \t Type");
@@ -46,6 +50,7 @@ class RegularEmp extends Employee1{
 		System.out.println("\n"+"Salary of Regular Employee is "+sal);
 	}
 }
+
 class ContractEmp extends Employee1{
 	void empDetails(String name, int id) {
 		System.out.println("Name \t Id \t Type");

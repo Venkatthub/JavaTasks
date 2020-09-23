@@ -1,5 +1,4 @@
 // Abstract classs with constructor
-package project;
 
 import java.util.Scanner;
 

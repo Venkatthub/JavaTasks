@@ -1,4 +1,5 @@
 // Abstract class task 1
+// Polymorphism
 
 public abstract class Animal {
 
