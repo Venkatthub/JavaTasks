@@ -2,7 +2,7 @@
 # Basic codes to understand various concepts
 # Conecpts Covered :
 
-<b> Local, Static and Instance variables
+  Local, Static and Instance variables
   Operators
   Access Modifiers
   Control Statements
