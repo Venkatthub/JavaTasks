@@ -1,4 +1,4 @@
-package full.operators.operations;
+package basics.operators.operations;
 
 public interface Calculatable {
 	

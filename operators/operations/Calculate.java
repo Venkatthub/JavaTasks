@@ -1,4 +1,4 @@
-package full.operators.operations;
+package basics.operators.operations;
 
 public class Calculate implements Calculatable {
 
@@ -115,31 +115,23 @@ public class Calculate implements Calculatable {
 	public void evenOdd(double a, double b) {
 
 		if ((a % 2 == 0) && (b % 2 == 0)) {
-			
+
 			System.out.println(a + " and " + b + " are Even numbers.");
-		
-		} else if(a%3==0 || b%2==0) {
-			if(a%2==0) {
-				System.out.println(a +  " is a Even number.");
-			}else {
-				System.out.println(a +  " is a Odd number.");
-			}if(b%3==0) {
-				System.out.println(b +  " is a Odd number.");
-			}else {
-				System.out.println(b +  " is a Even number.");
-			}}
-		else if(a%2==0 || b%3==0) {
-			
-			if(a%2==0) {
-				System.out.println(a +  " is a Even number.");
-			}else {
-				System.out.println(a +  " is a Odd number.");
-			}if(b%3==0) {
-				System.out.println(b +  " is a Even number.");
-			}else {
-				System.out.println(b +  " is a odd number.");
-			}			
-			
+
+		} else if (a % 3 == 0 && b % 2 == 0) {
+
+			System.out.println(a + " is a Odd number.");
+
+			System.out.println(b + " is a Even number.");
+
+		} else if (a % 2 == 0 && b % 3 == 0) {
+
+			System.out.println(a + " is a Even number.");
+
+			System.out.println(b + " is a odd number.");
+		}
+		else {
+			System.out.println(a + " and " + b + " are Odd numbers.");
 		}
 	}
 

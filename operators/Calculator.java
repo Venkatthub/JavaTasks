@@ -1,4 +1,4 @@
-package full.operators;
+package basics.operators;
 
 import java.util.*;
 
